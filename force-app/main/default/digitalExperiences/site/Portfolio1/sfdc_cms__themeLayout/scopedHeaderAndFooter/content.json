@@ -1,0 +1,61 @@
+{
+  "type" : "sfdc_cms__themeLayout",
+  "title" : "Scoped Header and Footer",
+  "contentBody" : {
+    "component" : {
+      "attributes" : { },
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"61535a11-e4bd-476a-bfd9-68d317f6119e\",\"columns\":[{\"UUID\":\"600e6cfe-37bb-4c6f-9bc1-83265346beea\",\"columnName\":\"Column 1\",\"columnKey\":\"headerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "id" : "600e6cfe-37bb-4c6f-9bc1-83265346beea",
+            "name" : "headerSection",
+            "title" : "En-tête du thème",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "61535a11-e4bd-476a-bfd9-68d317f6119e",
+          "type" : "component"
+        } ],
+        "id" : "c5b83e50-b680-46c5-b7f0-f35308d75670",
+        "name" : "header",
+        "title" : "En-tête du thème",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"e3a83582-6836-44a6-a5b4-02752ceec895\",\"columns\":[{\"UUID\":\"e29b4693-cfbc-452a-ba65-244521d951d6\",\"columnName\":\"Column 1\",\"columnKey\":\"footerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "id" : "e29b4693-cfbc-452a-ba65-244521d951d6",
+            "name" : "footerSection",
+            "title" : "Pied de page du thème",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "e3a83582-6836-44a6-a5b4-02752ceec895",
+          "type" : "component"
+        } ],
+        "id" : "a1881f91-3324-4384-8088-2c06b3620fbb",
+        "name" : "footer",
+        "title" : "Pied de page du thème",
+        "type" : "region"
+      } ],
+      "definition" : "community_byo:scopedHeaderAndFooter",
+      "id" : "d18d769a-aa55-4749-82d2-138281e85c5b",
+      "type" : "component"
+    }
+  }
+}
