@@ -1,0 +1,72 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+}
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+ 
+.container {
+    padding: 2px 16px;
+}
+p{
+    text-align: justify;
+    padding: 10px;
+}
+ul{
+    text-align: justify;
+    padding: 10px;
+}
+b{
+    text-align: center;
+    padding-top: 10px;
+
+}
+h2{
+    font-size: 24px;
+    text-align: center;
+    color: #014486;
+    font-weight: bold;
+}
+
+h4{
+    font-size: 16x;
+    text-align: center;
+    color: #014486;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.zoom img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.zoom :hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+.card{
+    padding-top: 10px;
+}
+@media only screen and (min-width: 768px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+
+        padding: 7px;
+        align-content: center;
+
+ 
+        
+    }
+    .card{
+        width: 33%;
+        padding: 7px;
+        padding-top: 20px;
+    }
+    
+ 
+}

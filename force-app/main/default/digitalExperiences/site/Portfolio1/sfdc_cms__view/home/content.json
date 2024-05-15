@@ -15,16 +15,14 @@
           },
           "children" : [ {
             "children" : [ {
-              "attributes" : {
-                "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 26px;\">This is our Portfolio site !</span></p>"
-              },
-              "definition" : "community_builder:richTextEditor",
-              "id" : "2b82897f-e004-4eac-89a7-af783bb13449",
+              "attributes" : { },
+              "definition" : "c:hero",
+              "id" : "dcf6a236-f426-456b-8a45-b1e325bb53b8",
               "type" : "component"
             } ],
             "id" : "cf1d5f24-e478-46c6-a382-e4deb7e1eac8",
             "name" : "col1",
-            "title" : "Colonne 1",
+            "title" : "Column 1",
             "type" : "region"
           } ],
           "definition" : "community_layout:section",

@@ -1,13 +1,16 @@
 <template>
     <div class="container">
-        <img src={photo} alt="">
+        <img onclick={handleClickProfile} class="shadow-4 profile" src={photo} alt="">
     </div>
 
     <div class="container">
-        <h1>My name is Ibou KA</h1>
+        <h1 class="animate__animated animate__lightSpeedInLeft"><span>My name is</span> Ibou KA</h1>
         <h2>I am a Salesforce Developer</h2>
-        <p>Let's do business together !</p>
-        <button>Contact Me</button>
+        <p class="paddingp">Let's do business together !</p>
+        <div class="paddingpp">
+            <c-contact-me-button></c-contact-me-button>
+        </div>
+        
     </div>
 
 </template>

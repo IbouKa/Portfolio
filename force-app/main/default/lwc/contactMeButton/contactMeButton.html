@@ -1,0 +1,25 @@
+<template>
+    <dialog class="contact-dialog">
+        <h1>Contact Me</h1>
+        <form onsubmit={handleSubmit}>
+            <lightning-input class="firstName" type='text' label='Fist Name'>
+            </lightning-input>
+            <lightning-input class="lastName" type='text' label='Last Name'>
+            </lightning-input>
+            <lightning-input class="company" type='text' label='Company'>
+            </lightning-input>
+            <lightning-input class="email" type='email' label='Email'>
+            </lightning-input>
+            <lightning-textarea class="description" label="Description"  placeholder="What would you like to talk about ?"></lightning-textarea>
+            <div class="btn-form">
+                <lightning-button variant='brand' label='Submit'   type="submit" class='cssClass'>
+                </lightning-button>
+                <lightning-button variant='base' label='Cancel'   onclick={closeDialog} class='cssClass'>
+                </lightning-button>
+            </div>
+        </form>
+    </dialog>
+    
+    <lightning-button variant='brand' label='Contact Me' title='title' onclick={showDialog} class='cssClass'>
+    </lightning-button>
+</template>
